@@ -68,7 +68,7 @@ header{
     border: 1px solid black;
     flex-direction: column;
     display:inline-flex;
-    width: 33%;
+    width: 20%;
     height: 87vh;
     float: left;
 }
@@ -111,7 +111,7 @@ header{
     background-color: #f1f0f0;
     position: relative;
     display: inline-flex;
-    width: 66%;
+    width: 80%;
     height: 87vh;
     flex-direction: column;
     justify-content: space-around;
@@ -126,7 +126,7 @@ header{
     text-align: right;
     padding-bottom: 10px;
 }
-.timer h3{
+.timer#countdown{
     padding-bottom: 20px;
     padding-right: 25px;
 }
