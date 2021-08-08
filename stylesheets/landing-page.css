@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+#particles-js{
+    height: 100vh;
+    width: 100vw;
+    background-color: #002768;
+}
+.main{
+    position: absolute;
+    top: 0px;
+    padding: 16rem 8rem;  
+}
+.main p{
+    padding: 0px 2px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    color: white;
+    
+}
+.main h1{
+    color: white;
+}
+.main button{
+    
+    display: block;
+    margin: auto;
+    padding: 8px 14px;
+    background-color: #0000000f;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    color: white;
+    transition: all .2s ease-in-out;
+    
+}
+.main button:hover{
+    transform: scale(1.2);
+}
+
+.main button a{
+
+    text-decoration: none;
+    color: white;
+}
