@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function(event) {
+   alert("Giving special credentials to enter");
+})
+
+
 const startingminutes = 60;
 var time = startingminutes * 60;
 

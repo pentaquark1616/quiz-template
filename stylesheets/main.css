@@ -43,13 +43,13 @@ header{
     display: inline;
     position: absolute;
     right: 35px;
-    top: 10px;
+    top: 16px;
 }
 .button button{
     background-color: #008CBA; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 36px;
     text-align: center;
     text-decoration: none;
     border-radius: 12px;
@@ -60,6 +60,20 @@ header{
     border: 2px solid blue;
     background-color: white; 
     color: rgb(0, 0, 0);
+}
+.timer p{
+
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 36px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 16px;  
+    width: 120x;
+    transition-duration: 0.4s; 
+
 }
 
 /* Sidebar Styling */
@@ -127,6 +141,7 @@ header{
     padding-bottom: 10px;
 }
 .timer#countdown{
+    width: 120x;
     padding-bottom: 20px;
     padding-right: 25px;
 }
