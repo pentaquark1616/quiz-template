@@ -61,20 +61,7 @@ header{
     background-color: white; 
     color: rgb(0, 0, 0);
 }
-.timer p{
 
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    padding: 10px 36px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 12px;
-    font-size: 16px;  
-    width: 120x;
-    transition-duration: 0.4s; 
-
-}
 
 /* Sidebar Styling */
 .sidebar{
@@ -137,8 +124,25 @@ header{
     padding: 0px 30px;
 }
 .timer{
+    position: relative;
     text-align: right;
     padding-bottom: 10px;
+}
+.timer p{
+
+    margin-left: auto;
+    margin-right: 20px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 36px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;  
+    width: 13%;
+    transition-duration: 0.4s; 
+
 }
 .timer#countdown{
     width: 120x;
@@ -155,6 +159,39 @@ header{
 }
 .rng {
     margin-left: 30px;
+}
+.rng button {
+  background-color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-family: monospace;
+  box-shadow: 1px 1px 1px #0057ab;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+  border-bottom: 4px solid #d9d9d9;
+}
+.rng button:hover {
+  box-shadow: 0px 7px 4px -6px #0057ab;
+  transform: scale(1.03);
+}
+.rng button:active {
+  box-shadow: 0px 4px 8px #0065c8;
+  transform: scale(0.98);
+}
+.rng p{
+    padding: 9px 9px;
+    display: block;
+    height: 45%;
+    width: 16%;
+    margin: auto;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+    border: 2px dashed black;
 }
 .bet{
     margin-right: 30px;

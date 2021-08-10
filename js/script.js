@@ -2,6 +2,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
    alert("Giving special credentials to enter");
 })
 
+function myFunction() {
+  var x = Math.floor((Math.random() * 10) + 1);
+  document.getElementById("generate").innerHTML = x;
+}
+
 
 const startingminutes = 60;
 var time = startingminutes * 60;
